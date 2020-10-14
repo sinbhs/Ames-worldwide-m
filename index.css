@@ -51,7 +51,7 @@ a.button:hover svg, a.button:active svg {stroke:#fff;}
     .container .contents .event a {width: 150px; font-weight: 500; padding: 15px 17px; margin:0 0 30px 4%; border: 2px solid #000; display: flex; align-items: center;}
     .container .contents .event a span {padding-right:20px;}
     .container .contents .event .imgBox {width: 100%; height:365px; background-color: #e5e5e4; border-top: 2px solid #000; border-bottom: 2px solid #000; position: relative;}
-    .container .contents .event .imgBox img {width: 100%;}
+    .container .contents .event .imgBox img {width: 375px;}
     .container .contents .event .imgBox img:nth-of-type(1) {position: absolute; left: 0; bottom: 0;}
     .container .contents .event .imgBox img:nth-of-type(2) {position: absolute; right: 0; bottom: 0;}
 /* marquee */
@@ -92,8 +92,8 @@ a.button:hover svg, a.button:active svg {stroke:#fff;}
     .container .contents .look-container {width: 100%; height: 100%; position: relative; overflow: hidden;}
     .container .contents .look-container li {width: 100%; height:400px;}
     .container .contents .look-container li:first-child {background:url(images/model1.png) no-repeat center; background-size: 200px;}
-    .container .contents .look-container li:nth-child(2) {background:url(images/model2.png) no-repeat center; background-size: 180px;}
-    .container .contents .look-container li:last-child {background:url(images/model3.png) no-repeat center; background-size: 180px;}
+    .container .contents .look-container li:nth-child(2) {background:url(images/model2.png) no-repeat center; background-size: 200px;}
+    .container .contents .look-container li:last-child {background:url(images/model3.png) no-repeat center; background-size: 200px;}
 
     /* section 6 - sns */
     .container .contents .sns {width: 100%; height: 130px; background: url(images/snsBg.jpg) no-repeat center/100%; font-size: 18px; color:#fff; line-height: 135px; text-align: center; margin-bottom: 35px;}
@@ -106,6 +106,10 @@ a.button:hover svg, a.button:active svg {stroke:#fff;}
 .container footer .bot_nav .leftL {margin-right:20%;}
 .container footer .com_info {line-height: 1.7; font-size: 15px; text-transform: uppercase; padding:0 4% 40px;}
 .container footer .com_info li span {text-transform: none;}
+.container footer .link {padding:0 4% 30px;}
+.container footer .link h4 {font-size: 18px; color:#2c6eb6; margin-bottom:15px;}
+.container footer .link ul {display: flex; font-size: 18px;}
+.container footer .link ul li {font-weight: 500; margin-right: 30px;}
 .container footer p {font-size: 15px; text-align: center; margin-bottom:25px;}
 .container footer .client_info {display: flex; justify-content: space-around; font-size: 15px; text-transform: uppercase; margin-bottom: 40px;}
 
