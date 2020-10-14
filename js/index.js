@@ -46,7 +46,6 @@ $(function(){
 
     //event swiper
     var swiper = new Swiper('.swiper-container', {
-        // slidesPerView: 1.355
         slidesPerView: 'auto'
       });
 

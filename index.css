@@ -50,9 +50,9 @@ a.button:hover svg, a.button:active svg {stroke:#fff;}
     .container .contents .event p {line-height: 1.6; padding: 0 4%; margin: 40px 0 30px;}
     .container .contents .event a {width: 150px; font-weight: 500; padding: 15px 17px; margin:0 0 30px 4%; border: 2px solid #000; display: flex; align-items: center;}
     .container .contents .event a span {padding-right:20px;}
-    /* .container .contents .event .imgBox {width: 100%; height:365px; background: url(images/banner.jpg) no-repeat center/cover; border-top: 2px solid #000; border-bottom: 2px solid #000;} */
     .container .contents .event .imgBox {width: 100%; height:365px; background-color: #e5e5e4; border-top: 2px solid #000; border-bottom: 2px solid #000; position: relative;}
-    .container .contents .event .imgBox img {position: absolute; right: 0; bottom: 0;}
+    .container .contents .event .imgBox img:nth-of-type(1) {position: absolute; left: 0; bottom: 0;}
+    .container .contents .event .imgBox img:nth-of-type(2) {position: absolute; right: 0; bottom: 0;}
 /* marquee */
 .container .contents .marquee-box {width: 100%; height:150px; overflow: hidden; white-space: nowrap; display: flex; align-items: center;}
 .container .contents .marquee {font-size: 0;}
@@ -94,7 +94,7 @@ a.button:hover svg, a.button:active svg {stroke:#fff;}
     .container .contents .look-container li:last-child {background:url(images/model3.png) no-repeat center;}
 
     /* section 6 - sns */
-    .container .contents .sns {width: 100%; height: 130px; background: url(images/snsBg.jpg) no-repeat center/contain; font-size: 18px; color:#fff; line-height: 135px; text-align: center; margin-bottom: 35px;}
+    .container .contents .sns {width: 100%; height: 130px; background: url(images/snsBg.jpg) no-repeat center/100%; font-size: 18px; color:#fff; line-height: 135px; text-align: center; margin-bottom: 35px;}
 
 /* footer */
 .container footer {padding:0 4%;}
