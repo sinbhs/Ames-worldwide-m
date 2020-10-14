@@ -46,20 +46,18 @@ $(function(){
 
     //event swiper
     var swiper = new Swiper('.swiper-container', {
-        slidesPerView: 1.355,
-        pagination: {
-          el: '.swiper-pagination',
-          clickable: true,
-        },
+        // slidesPerView: 1.355
+        slidesPerView: 'auto'
       });
 
+    //product swiper
     var swiper = new Swiper('.pd-container', {
         slidesPerView: 1,
-        pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
+        loop:true,
+        autoplay:{
+            delay:1500,
         },
-        loop:true
+        speed:800
     });
 
     //model look swiper
