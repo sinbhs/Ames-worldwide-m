@@ -110,8 +110,8 @@ a.button:hover svg, a.button:active svg {stroke:#fff;}
 .container footer .link h4 {font-size: 18px; color:#2c6eb6; margin-bottom:15px;}
 .container footer .link ul {display: flex; font-size: 18px;}
 .container footer .link ul li {font-weight: 500; margin-right: 30px;}
-.container footer p {font-size: 15px; text-align: center; margin-bottom:25px;}
-.container footer .client_info {display: flex; justify-content: space-around; font-size: 15px; text-transform: uppercase; margin-bottom: 40px;}
+.container footer p {font-size: 15px; margin-bottom:25px; padding:0 4%;}
+.container footer .client_info {display: flex; justify-content: space-between; font-size: 15px; text-transform: uppercase; margin-bottom: 40px; padding:0 4%;}
 
 /* scrollTop */
 .scrollTop {border:2px solid #000; width:44px; height:44px; background: url(images/scrollTop.svg) no-repeat center, #fff; position: fixed; right:20px; bottom:68px; z-index: 500; cursor: pointer;}
