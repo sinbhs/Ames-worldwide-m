@@ -17,6 +17,19 @@ $(function(){
         }
     });
 
+    //vegas plugin
+    $('.imgBox').vegas({
+        slides : [
+            {src: 'images/banner.jpg'},
+            {src: 'images/banner2.jpg'},
+            {src: 'images/banner3.jpg'}
+        ],
+        timer : false,//하단 진행바 숨김
+        delay:2000,//대기시간
+        transition: 'fade',//움직임의 형태
+        valign: 'top'
+    });
+
     //marquee text
     let marquee = document.querySelectorAll('.clipped-text');
     // 너비를 얻기 위한 이벤트 수신기

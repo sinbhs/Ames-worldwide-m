@@ -38,7 +38,8 @@ a.button:hover svg path {fill: #fff;}
 .nav.animate {opacity: 1; visibility: visible;}
 .nav .nav_overlay {position: relative;}
 .nav .nav_header {width: 100%; height: 58px; padding:0 4%; border-bottom: 2px solid #fff; display: flex; align-items: center; background-color: #000;}
-.nav .nav_header .logo > img {width:125px; padding-left: 23px;}
+.nav .nav_header .logo {width:125px; padding-left: 23px;}
+.nav .nav_header .logo img {width:125px;}
 .nav .nav_header > img {width:125px; padding-left: 23px;}
 .nav .gnb {width: 100%; height: 100%; padding:0 4%;}
 .nav .gnb ul {margin-top: 150px;}
@@ -53,10 +54,8 @@ a.button:hover svg path {fill: #fff;}
     .container .contents .event p {line-height: 1.6; padding: 0 4%; margin: 40px 0 30px; text-transform: capitalize;}
     .container .contents .event a {width: 200px; font-weight: 500; padding: 15px 17px; margin:0 0 30px 4%; border: 2px solid #000; display: flex; align-items: center;}
     .container .contents .event a span {padding-right:10px;}
-    .container .contents .event .imgBox {width: 100%; height:365px; background-color: #e5e5e4; border-top: 2px solid #000; border-bottom: 2px solid #000; position: relative;}
+    .container .contents .event .imgBox {width: 100%; height:365px; border-top: 2px solid #000; border-bottom: 2px solid #000; position: relative;}
     .container .contents .event .imgBox img {width: 375px;}
-    .container .contents .event .imgBox img:nth-of-type(1) {position: absolute; left: 0; bottom: 0;}
-    .container .contents .event .imgBox img:nth-of-type(2) {position: absolute; right: 0; bottom: 0;}
 /* marquee */
 .container .contents .marquee-box {width: 100%; height:150px; overflow: hidden; white-space: nowrap; display: flex; align-items: center;}
 .container .contents .marquee {font-size: 0;}
@@ -66,7 +65,7 @@ a.button:hover svg path {fill: #fff;}
     .container .contents .swiper-container {width: 100%; height: 100%;}
     .container .contents .swiper-slide {width:277px; text-align:center;}
     .container .contents .swiper-slide .thumb {width:100%;}
-    .container .contents .swiper-slide .thumb img {width:100%;}
+    .container .contents .swiper-slide .thumb img {width:100%; height: 275px;}
     .container .contents .swiper-slide .info {width: 100%; height: 65px; line-height: 65px; font-family: 'Caveat', cursive;}
     .container .contents .text {padding:0 4% 70px;}
     .container .contents .swiper-container p {line-height: 1.6; letter-spacing: -0.3px; margin-top:45px;}
