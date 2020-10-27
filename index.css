@@ -1,9 +1,7 @@
 @charset "utf-8";
 
 /* basic */
-* {box-sizing: border-box;}
-body {font-family: 'Noto Sans KR',-apple-system,BlinkMacSystemFont,"Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif;}
-h1,h2,h3 {margin:0; font-family: 'Poppins',sans-serif;}
+h1, h2, h3 {margin:0; font-family: 'Poppins',sans-serif;}
 body {font-size: 20px;}
 ul {list-style: none; padding:0; margin: 0;}
 img {vertical-align: top;}
@@ -16,16 +14,19 @@ a.button {display: inline-block;}
 a.button:hover, a.button:active {background-color: #000; color:#fff;}
 svg {width: 37px;}
 a.button:hover svg path {fill: #fff;}
-
 .container {position: relative; width: 100%; height: 100%;}
+
+/* font */
+body {font-family: 'Noto Sans KR',-apple-system,BlinkMacSystemFont,"Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif;}
+
 /* header */
-.container header {width: 100%; height: 58px; padding:0 4%; border-bottom: 2px solid #000; display: flex; align-items: center; position: fixed; top:0; left:0; background-color: #fff; z-index: 600;}
+.container header {width: 100%; height: 58px; padding:0 4%; box-sizing: border-box; border-bottom: 2px solid #000; display: flex; align-items: center; position: fixed; top:0; left:0; background-color: #fff; z-index: 600;}
     /* hamburger menu */
-    .menu-wrapper {width: 23px; height: 16px; position: absolute; z-index: 9999;}
+    .menu_wrapper {width: 23px; height: 16px; position: absolute; z-index: 9999;}
     .hamburger-menu, .hamburger-menu:after, .hamburger-menu:before {width: 23px;height: 1px; background: #000;}
     .hamburger-menu { position: relative; transform: translateY(8px); transition: all 0ms 300ms;}
-    .hamburger-menu:before {content: ""; position: absolute; left: 0; bottom:8px; transition: bottom 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1);}
-    .hamburger-menu:after {content: ""; position: absolute; left: 0; top: 8px; transition: top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1);}
+    .hamburger-menu:before {content: ''; position: absolute; left: 0; bottom:8px; transition: bottom 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1);}
+    .hamburger-menu:after {content: ''; position: absolute; left: 0; top: 8px; transition: top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1);}
         .hamburger-menu.animate:after {top: 0; transform: rotate(45deg); transition: top 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1); background-color: #fff;}
         .hamburger-menu.animate:before {bottom: 0; transform: rotate(-45deg); transition: bottom 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1); background-color: #fff;}
     /* logo */
@@ -56,6 +57,7 @@ a.button:hover svg path {fill: #fff;}
     .container .contents .event a span {padding-right:10px;}
     .container .contents .event .imgBox {width: 100%; height:365px; border-top: 2px solid #000; border-bottom: 2px solid #000; position: relative;}
     .container .contents .event .imgBox img {width: 375px;}
+
 /* marquee */
 .container .contents .marquee-box {width: 100%; height:150px; overflow: hidden; white-space: nowrap; display: flex; align-items: center;}
 .container .contents .marquee {font-size: 0;}
