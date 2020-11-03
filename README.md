@@ -1,4 +1,4 @@
-# Ames-worldwide-m
+# Portfolio Work - Ames worldwide mobile version
 [리뉴얼된 AMES WORLDWIDE 적응형 페이지(Mobile Version) 바로 가기](https://sinbhs.github.io/Ames-worldwide-m/)
 
 **Portfolio Work** - **Renewal Ames Worldwide shopping mall** website (design&amp;develop) **Mobile Version**
