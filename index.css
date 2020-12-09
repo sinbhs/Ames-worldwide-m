@@ -15,6 +15,9 @@ a.button:hover, a.button:active {background-color: #000; color:#fff;}
 svg {width: 37px;}
 a.button:hover svg path {fill: #fff;}
 .container {position: relative; width: 100%; height: 100%;}
+::selection {background-color:#bfff48; color:#000;}
+::-moz-selection {background-color:#bfff48; color:#000;}
+::-webkit-selection {background-color:#bfff48; color:#000;}
 
 /* font */
 body {font-family: 'Noto Sans KR',-apple-system,BlinkMacSystemFont,"Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif;}
