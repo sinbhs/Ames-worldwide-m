@@ -6,12 +6,12 @@ $(function(){
     });
 
     //hamburger menu
-    $('.menu-wrapper').on('click', function() {
-        $('.hamburger-menu').toggleClass('animate');//햄버거 메뉴 모양
+    $('.menu_wrapper').on('click', function() {
+        $('.hamburger_menu').toggleClass('animate');//햄버거 메뉴 모양
         $('.nav').toggleClass('animate');//햄버거 메뉴 투명도 조절
         $('.nav').animate({left:0},200);//햄버거 메뉴 왼쪽에서 오른쪽으로 등장
 
-        const menu = $('.hamburger-menu').hasClass('animate');//열린 상태 정의
+        const menu = $('.hamburger_menu').hasClass('animate');//열린 상태 정의
         if(menu == 0) {
             $('.nav').animate({left:'-100%'},200);
         }
@@ -86,6 +86,7 @@ $(function(){
             scrollTop:0
         },600);
     });
+
     $(window).scroll(function(){
         $('.scrollTop').stop().animate({opacity:0},300);
         var scroll = $(this).scrollTop();
